@@ -27,6 +27,9 @@ plt.xlabel('Día')
 plt.ylabel('Temperatura (°C)')
 plt.legend()
 plt.show()
+# 🔍 Programa en Python
+
+![image](https://github.com/user-attachments/assets/0fe68ea5-1329-4a2d-baed-4a7775374c25)
 
 # 🔍 Gráfico
 
