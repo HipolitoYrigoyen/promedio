@@ -20,13 +20,22 @@ print(f"El promedio de temperatura de lunes a domingo es: {promedio_temperatura:
 
 # 📊 Visualizar el promedio usando seaborn
 plt.figure(figsize=(8, 5))
+
 sns.barplot(x='dia', y='temperatura', data=df, estimator='mean', ci=None)
+
 plt.axhline(promedio_temperatura, color='red', linestyle='--', label='Promedio Temperatura')
+
 plt.title('Promedio de Temperatura de Lunes a Domingo')
+
 plt.xlabel('Día')
+
 plt.ylabel('Temperatura (°C)')
+
 plt.legend()
-plt.show()
+
+plt.show()"
+
+
 # 🔍 Programa en Python
 
 ![image](https://github.com/user-attachments/assets/0fe68ea5-1329-4a2d-baed-4a7775374c25)
