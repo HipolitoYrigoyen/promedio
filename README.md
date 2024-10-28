@@ -15,7 +15,9 @@ data = {
 df = pd.DataFrame(data)
 
 # 🔍 Calcular el promedio de temperatura
+
 promedio_temperatura = df['temperatura'].mean()
+
 print(f"El promedio de temperatura de lunes a domingo es: {promedio_temperatura:.2f}°C")
 
 # 📊 Visualizar el promedio usando seaborn
