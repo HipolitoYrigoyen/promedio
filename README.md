@@ -3,8 +3,11 @@
 Este programa en Python calcula el promedio de la temperatura de lunes a domingo y lo visualiza utilizando **Seaborn**. A continuación, te mostramos el código:
 
 import pandas as pd
+
 import seaborn as sns
+
 import matplotlib.pyplot as plt
+
 
 # 📅 Crear un DataFrame con datos ficticios de temperaturas
 data = {
